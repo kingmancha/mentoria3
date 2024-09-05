@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="container-header">
+            <div>
+                <h1>Formulario de Cadastro</h1>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <img src="./img/001.png" alt="Foto-eu" class="img-container">
+
+                <form class="form-prinicipal">
+
+                    <fieldset class="formulario_camp">
+                        <label class="form-label" for="nome">Nome Completo:</label>
+                        <input class="formulario_escrita" type="text" id="nome" name="nome" required><br>
+                    </fieldset>
+
+                    <fieldset class="formulario_camp">
+                        <label class="form-label" for="email">E-mail:</label>
+                        <input class="formulario_escrita" type="email" name="email" id="email" required><br>
+                    </fieldset>
+
+                    <fieldset class="formulario_camp">
+                        <label class="form-label" for="telefone">Telefone:</label>
+                        <input class="formulario_escrita_menor" type="tel" name="telefone" id="telefone" required><br>
+                    </fieldset>
+
+                    <fieldset class="formulario_camp">
+                        <label class="form-label" for="cpf">CPF</label>
+                        <input class="formulario_escrita_menor" type="text" id="cpf" name="cpf" required><br>
+                    </fieldset>
+
+                    <fieldset class="formulario_camp">
+                        <label class="form-label" for="cpf">Endereço Completo</label>
+                        <input class="formulario_escrita" type="text" id="endereco" name="endereco" required><br>
+                    </fieldset>
+
+                    <fieldset class="formulario_camp">
+                        <label class="form-label" for="cpf">CEP</label>
+                        <input class="formulario_escrita_menor" type="text" id="cep" name="cep" required><br>
+                    </fieldset>
+                    <input type="submit" value="Cadastar">
+
+                </form>
+            </div>
+        </section>
+    </main>
+<footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
